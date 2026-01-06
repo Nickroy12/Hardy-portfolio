@@ -117,3 +117,47 @@ ul li a{
     color: #181818;
     font-weight: bold;
 }
+#skills {
+    padding: 130px;
+}
+#skills .skills-container{
+        width: 83%;
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+.skills-content h2{
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 30px;
+     text-align: center;
+}
+.skills-content p{
+        font-size: 17px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+     text-align: center;
+}
+.skills-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.skills-card {
+    padding: 24px 11px;
+    box-shadow: -3px 6px 19px #00000057;
+    border-radius: 5px;
+}
+.skills-card h4{
+  font-size: 20px;
+  color:#181818;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.skills-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 30px;
+}
