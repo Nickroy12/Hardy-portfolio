@@ -40,12 +40,17 @@ ul li a{
 .button {
     background: #FD6E0A;
     padding: 6px 10px;
-    color:#fff;
     outline: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: #fff;
 }
+.button a{
+    text-decoration: none;
+ color:#fff;
+}
+
 #hero{
     margin: 0 38px 0 230px;
   display: flex;
@@ -214,10 +219,59 @@ ul li a{
   background: #FD6E0A;
   padding: 10px 23px;
   border-radius: 5px;
+  margin-bottom: 30px;
 }
 .downloadBtn button a{
     text-decoration: none;
     color: #fff;
     font-size: 17px;
     font-weight: 600;
+}
+footer{
+  background:#FFF8F3;
+  padding-top: 120px;
+}
+.footer-container{
+        width: 83%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.location{
+    width: 455px;
+}
+.footer-container h2{
+    font-size: 30px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+.footer-container p{
+    font-size: 14px;
+      color:#757575;
+        line-height: 30px;
+}
+.footer-container .inputBox input[type="text"] {
+    width: 246px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+}
+.footer-container .inputBox input[type="text"] ,textarea {
+    width: 246px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+}
+.sumbmitBtn{
+      border: none;
+  background: #FD6E0A;
+  padding: 10px 23px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+      color: #fff;
+    font-size: 17px;
+    font-weight: 400;
 }
