@@ -161,3 +161,63 @@ ul li a{
     color: #757575;
     line-height: 30px;
 }
+.resume-container{
+    width: 83%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.resume-container h2{
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.resume-viewer {
+    display: flex;
+    gap:60px;
+}
+.resume-card{
+    width: 455px;
+   margin-bottom: 30px;
+   margin-top: 20px;
+}
+.resume-container .resume-viewer h3{
+    font-size: 30px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.resume-container .resume-viewer h2{
+        font-size: 15px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.resume-container .resume-viewer .date{
+    color:#757575;
+    font-weight:700;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.resume-container .resume-viewer p{
+        color:#757575;
+        line-height: 30px;
+}
+.downloadBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.downloadBtn button  {
+  border: none;
+  background: #FD6E0A;
+  padding: 10px 23px;
+  border-radius: 5px;
+}
+.downloadBtn button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
